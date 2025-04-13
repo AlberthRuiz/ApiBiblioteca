@@ -21,12 +21,12 @@ namespace ApiBiblioteca.Controllers {
             return await context.Libros.Include(l => l.Autor).ToListAsync();
         }
         [HttpGet("{id:int}")]
-        public async Task<ActionResult<LibrosDTO>> Get(int id) {
+        public async Task<ActionResult<LibroDTO>> Get(int id) {
             var libro = await context.Libros
                                     .Include(a => a.Autor)
                                     .FirstOrDefaultAsync(l => l.Id == id);
             if (libro == null) NotFound();
-            return mapper.Map<LibrosDTO>(libro) ;
+            return mapper.Map<LibroDTO>(libro) ;
         }
         [HttpPost]
         public async Task<ActionResult> Post(Libro libro) {

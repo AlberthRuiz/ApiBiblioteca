@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ApiBiblioteca\\ApiBiblioteca\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|d:\\apibiblioteca\\apibiblioteca\\apibiblioteca\\dto\\librodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|solutionrelative:apibiblioteca\\dto\\librodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|d:\\apibiblioteca\\apibiblioteca\\apibiblioteca\\dto\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|solutionrelative:apibiblioteca\\dto\\autordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|d:\\apibiblioteca\\apibiblioteca\\apibiblioteca\\entidades\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|solutionrelative:apibiblioteca\\entidades\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|d:\\apibiblioteca\\apibiblioteca\\apibiblioteca\\dto\\autorconlibrosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|solutionrelative:apibiblioteca\\dto\\autorconlibrosdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|d:\\apibiblioteca\\apibiblioteca\\apibiblioteca\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|solutionrelative:apibiblioteca\\controllers\\autorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|d:\\apibiblioteca\\apibiblioteca\\apibiblioteca\\utilitarios\\applicationmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|solutionrelative:apibiblioteca\\utilitarios\\applicationmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|d:\\apibiblioteca\\apibiblioteca\\apibiblioteca\\dto\\autorcreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B60929F4-5B47-425F-AAE8-3A505CC4B4EC}|ApiBiblioteca\\ApiBiblioteca.csproj|solutionrelative:apibiblioteca\\dto\\autorcreaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutorConLibrosDTO.cs",
+              "DocumentMoniker": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\DTO\\AutorConLibrosDTO.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\DTO\\AutorConLibrosDTO.cs",
+              "ToolTip": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\DTO\\AutorConLibrosDTO.cs",
+              "RelativeToolTip": "ApiBiblioteca\\DTO\\AutorConLibrosDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:01:46.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationMapper.cs",
+              "DocumentMoniker": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\Utilitarios\\ApplicationMapper.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\Utilitarios\\ApplicationMapper.cs",
+              "ToolTip": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\Utilitarios\\ApplicationMapper.cs*",
+              "RelativeToolTip": "ApiBiblioteca\\Utilitarios\\ApplicationMapper.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T14:00:56.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutorCreacionDTO.cs",
+              "DocumentMoniker": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\DTO\\AutorCreacionDTO.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\DTO\\AutorCreacionDTO.cs",
+              "ToolTip": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\DTO\\AutorCreacionDTO.cs",
+              "RelativeToolTip": "ApiBiblioteca\\DTO\\AutorCreacionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T13:56:33.589Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\Entidades\\Autor.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\Entidades\\Autor.cs",
+              "ToolTip": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\Entidades\\Autor.cs",
+              "RelativeToolTip": "ApiBiblioteca\\Entidades\\Autor.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T13:58:50.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoresController.cs",
+              "DocumentMoniker": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\Controllers\\AutoresController.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\Controllers\\AutoresController.cs",
+              "ToolTip": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\Controllers\\AutoresController.cs",
+              "RelativeToolTip": "ApiBiblioteca\\Controllers\\AutoresController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T13:57:24.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AutorDTO.cs",
+              "DocumentMoniker": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\DTO\\AutorDTO.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\DTO\\AutorDTO.cs",
+              "ToolTip": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\DTO\\AutorDTO.cs",
+              "RelativeToolTip": "ApiBiblioteca\\DTO\\AutorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T13:56:33.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibroDTO.cs",
+              "DocumentMoniker": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\DTO\\LibroDTO.cs",
+              "RelativeDocumentMoniker": "ApiBiblioteca\\DTO\\LibroDTO.cs",
+              "ToolTip": "D:\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca\\DTO\\LibroDTO.cs",
+              "RelativeToolTip": "ApiBiblioteca\\DTO\\LibroDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T13:56:18.882Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

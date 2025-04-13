@@ -14,24 +14,25 @@ namespace ApiBiblioteca.Controllers {
 
         private readonly IMapper mapper;
 
-        public AutoresController(ApplicationDbContext context, IMapper mapper) {            
+        public AutoresController(ApplicationDbContext context, IMapper mapper) {
             this.context = context;
             this.mapper = mapper;
         }
 
         [HttpGet]
-        public async Task<IEnumerable<Autor>> Get() {
-            return await context.Autores.ToListAsync();
+        public async Task<IEnumerable<AutorDTO>> Get() {
+            var autores = await context.Autores.ToListAsync();
+            return mapper.Map<List<AutorDTO>>(autores);
         }
 
         [HttpGet("{id:int}", Name = "ObtenerAutores")]
-        public async Task<ActionResult<AutorDTO>> Get(int id) {
+        public async Task<ActionResult<AutorConLibrosDTO>> Get(int id) {
             var autor = await context.
-                            Autores.
+                            Autores.Include(l => l.Libros).
                             FirstOrDefaultAsync(a => a.Id == id);
             if (autor == null) NotFound();
 
-            var autorDTO = mapper.Map<AutorDTO>(autor);
+            var autorDTO = mapper.Map<AutorConLibrosDTO>(autor);
 
             return autorDTO;
         }
@@ -50,9 +51,9 @@ namespace ApiBiblioteca.Controllers {
             return Ok();
         }
         [HttpDelete("{id:int}")]
-        public async Task<ActionResult> Delete(int id) { 
+        public async Task<ActionResult> Delete(int id) {
             var registro = await context.Autores.Where(a => a.Id == id).ExecuteDeleteAsync();
-            return registro == 0? NotFound(): Ok();
+            return registro == 0 ? NotFound() : Ok();
         }
 
 

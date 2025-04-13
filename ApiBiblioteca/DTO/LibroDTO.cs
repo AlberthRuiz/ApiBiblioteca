@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace ApiBiblioteca.DTO {
-    public class LibrosDTO {
+    public class LibroDTO {
         public int Id { get; set; }        
         public required string Titulo { get; set; }
-        public AutorDTO Autor { get; set; }
+        
     }
 }

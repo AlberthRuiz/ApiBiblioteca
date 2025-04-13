@@ -323,3 +323,4 @@ D:\ApiBiblioteca\ApiBiblioteca\ApiBiblioteca\obj\Debug\net9.0\refint\ApiBibliote
 D:\ApiBiblioteca\ApiBiblioteca\ApiBiblioteca\obj\Debug\net9.0\ApiBiblioteca.pdb
 D:\ApiBiblioteca\ApiBiblioteca\ApiBiblioteca\obj\Debug\net9.0\ApiBiblioteca.genruntimeconfig.cache
 D:\ApiBiblioteca\ApiBiblioteca\ApiBiblioteca\obj\Debug\net9.0\ref\ApiBiblioteca.dll
+D:\ApiBiblioteca\ApiBiblioteca\ApiBiblioteca\obj\Debug\net9.0\ApiBiblioteca.sourcelink.json

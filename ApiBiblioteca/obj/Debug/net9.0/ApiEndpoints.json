@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiBiblioteca.Entidades.Autor, ApiBiblioteca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiBiblioteca.DTO.AutorDTO, ApiBiblioteca, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -51,7 +51,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiBiblioteca.DTO.AutorDTO",
+        "Type": "ApiBiblioteca.DTO.AutorConLibrosDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -151,7 +151,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiBiblioteca.DTO.LibrosDTO",
+        "Type": "ApiBiblioteca.DTO.LibroDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
