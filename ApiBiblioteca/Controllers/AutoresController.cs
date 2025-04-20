@@ -31,6 +31,15 @@ namespace ApiBiblioteca.Controllers {
             return mapper.Map<AutorConLibrosDTO>(autor);
         }
 
+        [HttpGet("obtener/{id:int}")]
+        public async Task<ActionResult<Autor>> GetByID(int id) {
+            var autor = await context.Autores.Include(l => l.Libros).FirstOrDefaultAsync(a => a.Id == id);
+            if (autor == null) return NotFound();
+            return autor;
+        }
+
+
+
         [HttpPost]
         public async Task<ActionResult> Post(AutorCreacionDTO autorCreacionDTO) {
             var autor = mapper.Map<Autor>(autorCreacionDTO);
@@ -39,6 +48,8 @@ namespace ApiBiblioteca.Controllers {
             var autorDTO = mapper.Map<AutorDTO>(autor);
             return CreatedAtRoute("obtenerAutor", new { id = autor.Id }, autorDTO);
         }
+
+
         [HttpPut("{id:int}")]
         public async Task<ActionResult> Put(int Id, AutorCreacionDTO autorCreacionDTO) {
             var autor = mapper.Map<Autor>(autorCreacionDTO);
