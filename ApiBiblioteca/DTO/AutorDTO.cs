@@ -2,7 +2,7 @@
 
 namespace ApiBiblioteca.DTO {
     public class AutorDTO {
-        public int Id { get; set; }       
-        public required string NombresCompletos { get; set; }
+        public int ID { get; set; }
+        public string? NombresCompletos { get; set; }
     }
 }

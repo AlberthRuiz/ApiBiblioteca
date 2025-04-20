@@ -102,7 +102,7 @@
   {
     "ContainingType": "ApiBiblioteca.Controllers.AutoresController",
     "Method": "GetByID",
-    "RelativePath": "api/autores/obtener/{id}",
+    "RelativePath": "api/autores/detalle/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -115,7 +115,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "ApiBiblioteca.Entidades.Autor",
+        "Type": "ApiBiblioteca.DTO.AutorCreacionDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",

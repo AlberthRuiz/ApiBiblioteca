@@ -4742,23 +4742,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\chalb\\.nuget\\packages\\": {},
+    "C:\\Users\\SUITE\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\chalb\\Documents\\GitHub\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca.csproj",
+      "projectUniqueName": "C:\\Users\\SUITE\\source\\repos\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca.csproj",
       "projectName": "ApiBiblioteca",
-      "projectPath": "C:\\Users\\chalb\\Documents\\GitHub\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca.csproj",
-      "packagesPath": "C:\\Users\\chalb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\chalb\\Documents\\GitHub\\ApiBiblioteca\\ApiBiblioteca\\obj\\",
+      "projectPath": "C:\\Users\\SUITE\\source\\repos\\ApiBiblioteca\\ApiBiblioteca\\ApiBiblioteca.csproj",
+      "packagesPath": "C:\\Users\\SUITE\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\SUITE\\source\\repos\\ApiBiblioteca\\ApiBiblioteca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\chalb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\SUITE\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4767,6 +4767,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
