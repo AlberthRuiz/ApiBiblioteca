@@ -14,6 +14,8 @@ namespace ApiBiblioteca.Utilitarios {
                 .ForMember(dto => dto.NombresCompletos,
                 src => src.MapFrom(x => $"{x.Nombres} {x.Apellidos}"));
             CreateMap<Libro, LibroDTO>();
+            CreateMap<Autor, AutorConLibrosDTO>();
+            CreateMap<AutorCreacionDTO, Autor>();
 
         }
     }
