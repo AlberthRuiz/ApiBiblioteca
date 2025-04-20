@@ -12,11 +12,13 @@ namespace ApiBiblioteca.Utilitarios {
             CreateMap<Autor, AutorConLibrosDTO>()
                 .ForMember(dto => dto.NombresCompletos,
                 src => src.MapFrom(x => $"{x.Nombres} {x.Apellidos}"));
-            
-            CreateMap<Libro, LibroDTO>();
 
+            // Metodos post, put, delete
             CreateMap<AutorCreacionDTO, Autor>();
             CreateMap<Autor, AutorCreacionDTO>();
+
+            CreateMap<Libro, LibroDTO>();
+            CreateMap<Libro, LibroConAutorDTO>();           
             
 
         }
